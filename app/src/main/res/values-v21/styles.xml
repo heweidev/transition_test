@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ImageViewActivity" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- Set the transitions which are used for the entrance and exit of shared elements -->
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/grid_detail_transition
+        </item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/grid_detail_transition
+        </item>
+    </style>
+
+</resources>
